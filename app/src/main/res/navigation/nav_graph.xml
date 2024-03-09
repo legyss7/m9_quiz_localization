@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/greetingFragment">
+
+    <fragment
+        android:id="@+id/greetingFragment"
+        android:name="com.example.hw9.ui.main.GreetingFragment"
+        android:label="greeting_fragment_label"
+        tools:layout="@layout/greeting_fragment">
+
+        <action
+            android:id="@+id/action_greetingFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment"
+            app:enterAnim="@anim/from_right_anim"
+            app:exitAnim="@anim/to_left_anim"
+            app:popEnterAnim="@anim/from_left_anim"
+            app:popExitAnim="@anim/to_right_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/surveyFragment"
+        android:name="com.example.hw9.ui.main.SurveyFragment"
+        android:label="survey_fragment_label"
+        tools:layout="@layout/survey_fragment">
+
+        <action
+            android:id="@+id/action_surveyFragment_to_surveyResultFragment"
+            app:destination="@id/surveyResultFragment"
+            app:popUpTo="@id/greetingFragment"
+            app:enterAnim="@anim/from_right_anim"
+            app:exitAnim="@anim/to_left_anim"
+            app:popEnterAnim="@anim/from_left_anim"
+            app:popExitAnim="@anim/to_right_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/surveyResultFragment"
+        android:name="com.example.hw9.ui.main.SurveyResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/survey_result_fragment" >
+        <action
+            android:id="@+id/action_surveyResultFragment_to_greetingFragment"
+            app:destination="@id/greetingFragment"
+            app:popUpTo="@id/greetingFragment"
+            app:enterAnim="@anim/from_right_anim"
+            app:exitAnim="@anim/to_left_anim"
+            app:popEnterAnim="@anim/from_left_anim"
+            app:popExitAnim="@anim/to_right_anim"/>
+        <argument
+            android:name="answer"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_surveyResultFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment"
+            app:popUpTo="@id/greetingFragment"
+            app:enterAnim="@anim/from_right_anim"
+            app:exitAnim="@anim/to_left_anim"
+            app:popEnterAnim="@anim/from_left_anim"
+            app:popExitAnim="@anim/to_right_anim"/>
+    </fragment>
+
+</navigation>

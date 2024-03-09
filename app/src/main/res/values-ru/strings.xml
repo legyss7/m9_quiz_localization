@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_welcome_text">Начать</string>
+    <string name="button_quiz_text">Отправить</string>
+    <string name="button_result_text">Начать заново</string>
+    <string name="result_title">Ваш результат:</string>
+    <string name="question_1">Как тебе наш Android курс?</string>
+    <string name="answer_to_1_1">на 2</string>
+    <string name="answer_to_1_2">на 3</string>
+    <string name="answer_to_1_3">на 4</string>
+    <string name="answer_to_1_4">на 5</string>
+    <string name="answer_11_response">Вам не нравится наш курс.</string>
+    <string name="answer_12_response">Вас удовлетворяет наш курс.</string>
+    <string name="answer_13_response">Вы оценили наш курс хорошо.</string>
+    <string name="answer_14_response">Вы оценили наш курс отлично.</string>
+    <string name="question_2">Порекомендуешь его друзьям?</string>
+    <string name="answer_to_2_1">Обязательно</string>
+    <string name="answer_to_2_2">Уже порекомендовал</string>
+    <string name="answer_to_2_3">Посмотрим, что будет дальше</string>
+    <string name="answer_to_2_4">Нет</string>
+    <string name="answer_21_response">Вы готовы порекомендовать наш курс.</string>
+    <string name="answer_22_response">Вы уже порекомендовали курс своим друзьям.</string>
+    <string name="answer_23_response">Вам нужно больше времени, чтобы порекомендовать наш курс.</string>
+    <string name="answer_24_response">Вы не готовы рекомендовать наш курс.</string>
+    <string name="question_3">Пользовался ли ты обратной связью?</string>
+    <string name="answer_to_3_1">Да</string>
+    <string name="answer_to_3_2">Еще нет, но сейчас воспользуюсь</string>
+    <string name="answer_to_3_3">Нет, еще не приходилось</string>
+    <string name="answer_to_3_4">Нет, и не буду</string>
+    <string name="answer_31_response">Спасибо за обратную связь!</string>
+    <string name="answer_32_response">Спасибо за обратную связь!</string>
+    <string name="answer_33_response">Ждем вашу обратную связь!</string>
+    <string name="answer_34_response">Мы надеемся, что у вас появится возможность дать нам обратную связь.</string>
+    <string name="button_date">Введите дату рождения</string>
+    <string name="date_dialog_text">Введите вашу дату рождения</string>
+</resources>

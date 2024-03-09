@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">QUIZ</string>
+
+    <string name="button_welcome_text">Start</string>
+    <string name="button_quiz_text">Send</string>
+    <string name="button_result_text">Start again</string>
+
+    <string name="image_description" translatable="false">welcome image</string>
+    <string name="quiz" translatable="false">QUIZ</string>
+    <string name="result_title">Your result:</string>
+
+    <string name="question_1">How do you like our Android course?</string>
+    <string name="answer_to_1_1">on 2</string>
+    <string name="answer_to_1_2">by 3</string>
+    <string name="answer_to_1_3">by 4</string>
+    <string name="answer_to_1_4">by 5</string>
+
+    <string name="answer_11_response">You don\'t like our course.</string>
+    <string name="answer_12_response">You are satisfied with our course.</string>
+    <string name="answer_13_response">You rated our course well.</string>
+    <string name="answer_14_response">You rated our course excellent.</string>
+
+
+
+    <string name="question_2">Would you recommend it to your friends?</string>
+    <string name="answer_to_2_1">Necessarily</string>
+    <string name="answer_to_2_2">Already recommended</string>
+    <string name="answer_to_2_3">Let\'s see what will happen next</string>
+    <string name="answer_to_2_4">No</string>
+
+    <string name="answer_21_response">Are you ready to recommend our course?</string>
+    <string name="answer_22_response">You have already recommended the course to your friends.</string>
+    <string name="answer_23_response">You need more time to recommend our course.</string>
+    <string name="answer_24_response">You are not ready to recommend our course.</string>
+
+
+    <string name="question_3">Did you use feedback?</string>
+    <string name="answer_to_3_1">Yes</string>
+    <string name="answer_to_3_2">Not yet, but I\'ll use it now</string>
+    <string name="answer_to_3_3">No, I have n\'t had to yet</string>
+    <string name="answer_to_3_4">No, and I won\'t</string>
+
+    <string name="answer_31_response">Thanks for your feedback!</string>
+    <string name="answer_32_response">Thanks for your feedback!</string>
+    <string name="answer_33_response">We are waiting for your feedback!</string>
+    <string name="answer_34_response">We hope you have the opportunity to give us feedback.</string>
+    <string name="button_date">Enter date of birth</string>
+    <string name="date_dialog_text">Enter your date of birth</string>
+
+</resources>
